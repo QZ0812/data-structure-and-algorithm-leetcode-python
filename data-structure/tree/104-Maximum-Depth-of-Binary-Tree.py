@@ -6,7 +6,9 @@ class TreeNode(object):
         self.right = right
 
 
-# recursion
+# recursion 
+# Time Complexity: O(n)
+# Space Complexity: O(1)
 class Solution(object):
     def maxDepth(self, root):
         """
@@ -20,6 +22,8 @@ class Solution(object):
 
 
 # iterative
+# Time Complexity: O(n)
+# Space Complexity: ~~O(1)
 from collections import deque
 
 class Solution(object):
