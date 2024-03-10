@@ -4,7 +4,9 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
-      
+
+# Time Complexity: O(h) -- h is hight of the tree
+# Space Complexity: O(1)
 class Solution:
     def deleteNode(self, root: Optional[TreeNode], key: int) -> Optional[TreeNode]:
         if not root:
