@@ -6,6 +6,8 @@ class TreeNode:
         self.right = right
 
 
+# Time Complexity: O(n)
+# Space Complexity: O(n)
 class Solution:
     def mergeTrees(self, root1: Optional[TreeNode], root2: Optional[TreeNode]) -> Optional[TreeNode]:
         if not root1 and not root2:
