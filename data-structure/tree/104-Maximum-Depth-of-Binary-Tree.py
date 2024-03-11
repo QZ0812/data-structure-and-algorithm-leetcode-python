@@ -8,7 +8,7 @@ class TreeNode(object):
 
 # recursion 
 # Time Complexity: O(n)
-# Space Complexity: O(1)
+# Space Complexity: O(h)
 class Solution(object):
     def maxDepth(self, root):
         """
