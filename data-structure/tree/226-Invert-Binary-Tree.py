@@ -7,7 +7,7 @@ class TreeNode:
 
 
 # Time Complexity: O(n)
-# Space Complexity: O(1)
+# Space Complexity: O(h)
 class Solution:
     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         if not root:
