@@ -4,8 +4,10 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
+        
 
-
+# Time Complexity: O(n * m) -- n is the number of nodes in the root tree. m is the number of nodes in the subRoot tree.
+# Space Complexity: O(h) -- h is the height of the call stack during the recursive traversal.
 class Solution:
     def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
         
