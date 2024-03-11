@@ -7,7 +7,7 @@ class TreeNode:
 
 
 # Time Complexity: O(n) -- n is the number of tree nodes
-# Space Complexity: O(1)
+# Space Complexity: O(h)
 class Solution:
     def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
 
