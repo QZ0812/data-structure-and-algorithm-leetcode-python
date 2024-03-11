@@ -7,6 +7,8 @@ class TreeNode:
 
 
 #similar as leetcode 104, but addition step is to check left max and right max height difference. 
+# Time Complexity: O(n)
+# Space Complexity: O(1)
 class Solution:
     def isBalanced(self, root: Optional[TreeNode]) -> bool:
         
