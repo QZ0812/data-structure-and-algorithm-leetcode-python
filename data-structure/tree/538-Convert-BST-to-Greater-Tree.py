@@ -6,6 +6,9 @@ class TreeNode:
         self.right = right
 
 
+# Time Complexity: O(n)
+# Space Complexity: O(h)
+# post order traversal
 class Solution:
     def convertBST(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         sumt = 0
