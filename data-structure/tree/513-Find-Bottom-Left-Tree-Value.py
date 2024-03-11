@@ -5,9 +5,11 @@ class TreeNode:
         self.left = left
         self.right = right
 
-   
-from collections import deque 
+
 # BFS solution
+# Time Complexity: O(n)
+# Space Complexity: O(n)   
+from collections import deque 
 class Solution:
     def findBottomLeftValue(self, root: Optional[TreeNode]) -> int:
         q = deque([root])
@@ -20,6 +22,8 @@ class Solution:
 
 
 #DFS solution
+# Time Complexity: O(n)
+# Space Complexity: O(h)  
 class Solution:
     def findBottomLeftValue(self, root: Optional[TreeNode]) -> int:
         result, h = self.dfs(root, 0, root.val, 0)
