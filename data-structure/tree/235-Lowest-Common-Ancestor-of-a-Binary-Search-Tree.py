@@ -6,6 +6,8 @@ class TreeNode:
         self.right = None
 
 
+# Time Complexity: O(lgn)
+# Space Complexity: O(h) 
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         while root:
