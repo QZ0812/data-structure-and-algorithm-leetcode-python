@@ -9,7 +9,7 @@ class TreeNode:
 
 
 # Time Complexity: O(n)
-# Space Complexity: O(1)
+# Space Complexity: O(n)
 class Solution:
 
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> int:
