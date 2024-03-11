@@ -6,6 +6,8 @@ class TreeNode:
         self.right = right
 
 
+# Time Complexity: O(n)
+# Space Complexity: O(h)
 class Solution:
     def sumOfLeftLeaves(self, root: Optional[TreeNode]) -> int:
 
