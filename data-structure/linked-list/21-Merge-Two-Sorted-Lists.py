@@ -5,6 +5,9 @@ class ListNode:
         self.next = next
 
 
+# iterative 
+# Time Complexity: O(n)
+# Space Complexity: O(1)
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         dummy = ans = ListNode(0)
