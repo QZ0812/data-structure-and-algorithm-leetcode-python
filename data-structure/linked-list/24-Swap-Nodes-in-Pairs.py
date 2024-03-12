@@ -5,6 +5,9 @@ class ListNode:
         self.next = next
 
 
+# iterative 
+# Time Complexity: O(n)
+# Space Complexity: O(1)
 class Solution:
     def swapPairs(self, head: Optional[ListNode]) -> Optional[ListNode]:
         dummy = pre = ListNode(0)
