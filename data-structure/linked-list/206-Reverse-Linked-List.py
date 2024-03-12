@@ -11,13 +11,13 @@ class ListNode:
 # Space Complexity: O(n)
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        def dfs(head, pre):
-            if not head:
+        def dfs(cur, pre):
+            if not cur:
                 return pre
-            post = head.next
-            head.next = pre
+            nxt = cur.next
+            cur.next = pre
             
-            return dfs(post, head)
+            return dfs(nxt, cur)
             
         return dfs(head, None)
 
