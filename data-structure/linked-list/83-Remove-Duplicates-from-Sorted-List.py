@@ -5,6 +5,8 @@ class ListNode:
         self.next = next
 
 
+# Time Complexity: O(n)
+# Space Complexity: O(1)
 class Solution:
     def deleteDuplicates(self, head: Optional[ListNode]) -> Optional[ListNode]:
         prev = ans = ListNode(float(-inf))
