@@ -5,7 +5,7 @@ class ListNode:
         self.next = next
 
 
-# Time Complexity: O(n)
+# Time Complexity: O(nlogn)
 # Space Complexity: O(1)
 class Solution:
     def sortList(self, head: Optional[ListNode]) -> Optional[ListNode]:
