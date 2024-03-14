@@ -5,7 +5,8 @@ class ListNode:
         self.next = next
 
 
-
+# Time Complexity: O(n)
+# Space Complexity: O(1)
 class Solution:
     def sortList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         if not head or not head.next:
