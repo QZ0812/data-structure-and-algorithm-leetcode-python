@@ -1,3 +1,5 @@
+# Time Complexity: O(n)
+# Space Complexity: O(n)
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
         if len(set(s))!= len(set(t)):
