@@ -1,3 +1,5 @@
+# Time Complexity: O(n)
+# Space Complexity: O(n)
 from collections import defaultdict
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
