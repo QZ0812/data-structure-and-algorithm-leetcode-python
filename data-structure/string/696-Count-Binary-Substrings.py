@@ -1,3 +1,5 @@
+# Time Complexity: O(n)
+# Space Complexity: O(1)
 class Solution:
     def countBinarySubstrings(self, s: str) -> int:
         count, pre, cur = 0, 0, 1
