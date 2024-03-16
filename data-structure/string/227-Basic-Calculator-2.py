@@ -1,3 +1,5 @@
+# Time Complexity: O(n)
+# Space Complexity: O(n)
 class Solution:
     def calculate(self, s: str) -> int:
         s = s + "+"
