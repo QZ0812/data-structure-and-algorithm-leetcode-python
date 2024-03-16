@@ -1,10 +1,12 @@
+# Time Complexity: O(n^2)
+# Space Complexity: O(1)
 class Solution:
     def countSubstrings(self, s: str) -> int:
-        i, count = 0, 0
+        count = 0
         
         for i in range(len(s)):
-            count += self.subStrings(i, i, s)
-            count += self.subStrings(i, i + 1, s) 
+            count += self.subStrings(i, i, s)        //odd lenght
+            count += self.subStrings(i, i + 1, s)    //even length
         return count
     
     def subStrings(self, l, r ,s):
@@ -19,7 +21,8 @@ class Solution:
 
 # brute force
 #O(n^2) start - end pairs and O(n) palindromic checks
-
+# Time Complexity: O(n^3)
+# Space Complexity: O(1)
 class Solution:
     def countSubstrings(self, s: str) -> int:
         i, j, count = 0, 0, 0
