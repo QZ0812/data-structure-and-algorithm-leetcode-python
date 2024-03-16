@@ -2,3 +2,5 @@
 647 Palindromic Substrings
 205 Isomorphic Strings
 227 Basic Calculator II
+772 Basic Calculator III
+3 Longest Substring Without Repeating Characters (Medium)
