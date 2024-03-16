@@ -1,3 +1,5 @@
+# Time Complexity: O(n*m)
+# Space Complexity: O(1)
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         i, ans =0, -1
