@@ -1,1 +1,3 @@
 696 Count Binary Substrings
+647 Palindromic Substrings
+205 Isomorphic Strings
