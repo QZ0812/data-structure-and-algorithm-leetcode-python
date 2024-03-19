@@ -1,3 +1,5 @@
+# Time Complexity: O(n)
+# Space Complexity: O(1)
 class Solution:
     def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
         ans = []
@@ -12,7 +14,8 @@ class Solution:
         return ans
 
 
-
+# Time Complexity: O(n)
+# Space Complexity: O(n)
 class Solution:
     def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
         ans, mapping = [], {}
