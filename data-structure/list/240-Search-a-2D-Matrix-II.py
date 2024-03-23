@@ -1,3 +1,5 @@
+# Time Complexity: O(n*m)
+# Space Complexity: O(1)
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         if not matrix:
