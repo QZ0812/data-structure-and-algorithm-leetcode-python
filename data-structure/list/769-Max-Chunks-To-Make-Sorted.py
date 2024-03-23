@@ -1,3 +1,6 @@
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 class Solution:
     def maxChunksToSorted(self, arr: List[int]) -> int:
         n, ans, cur_max = len(arr), 0, 0
