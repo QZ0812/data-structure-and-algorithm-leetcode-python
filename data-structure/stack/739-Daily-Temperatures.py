@@ -1,3 +1,6 @@
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
         stack, ans = [], [0] *len(temperatures)
@@ -11,6 +14,8 @@ class Solution:
         return ans
 
 
+# Time Complexity: O(n*n)
+# Space Complexity: O(1)
 class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
         lenth = len(temperatures)
