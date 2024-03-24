@@ -1,5 +1,5 @@
 # Time Complexity: O(nlogk) -- n number of all nodes, k lenth of lists
-# Space Complexity: O(1)
+# Space Complexity: O(n)
 
 class Solution:
     def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
