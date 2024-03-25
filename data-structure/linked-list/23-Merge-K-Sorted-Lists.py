@@ -30,3 +30,28 @@ class Solution:
         dummy.next = list1 or list2
             
         return ans.next
+
+
+
+# Time Complexity: O(nlogk) -- n number of all nodes, k lenth of lists
+# Space Complexity: O(n)
+from heapq import heapify, heappop, heappush
+class Solution:
+    def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
+        if not lists: 
+            return None
+
+        heap = [(ls.val, i, ls) for i, ls in enumerate(lists) if ls is not None ]
+
+        heapify(heap)
+
+        ans = dummy = ListNode(0)
+        
+        while heap:
+            _, index , node = heappop(heap)
+            if node.next:
+                heappush(heap, (node.next.val, index, node.next))
+            dummy.next = node
+            dummy = dummy.next
+            
+        return ans.next
