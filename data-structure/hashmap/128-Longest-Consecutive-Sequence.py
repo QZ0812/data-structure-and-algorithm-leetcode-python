@@ -1,9 +1,7 @@
 # time/space O(n)
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
-        count, ans = set(), 0
-        for num in nums:
-            count.add(num)
+        count, ans = set(nums), 0
             
         while count:
             curr = count.pop()
