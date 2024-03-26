@@ -1,3 +1,4 @@
+# time/space O(n)
 class Solution:
     def findLHS(self, nums: List[int]) -> int:
         count, ans = {}, 0
