@@ -1,3 +1,5 @@
+# Time Complexity: O(n)
+# Space Complexity: O(n)
 class Solution:
     def nextGreaterElements(self, nums: List[int]) -> List[int]:
         lenth, stack = len(nums), []
