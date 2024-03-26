@@ -1,3 +1,4 @@
+#time/space O(n)
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         count = set()
