@@ -18,3 +18,15 @@ class Solution:
                 nums1.remove(nums1[0])
                 
         return ans
+
+
+from collections import deque
+class Solution:
+    def advantageCount(self, nums1: List[int], nums2: List[int]) -> List[int]:
+        A = deque(sorted(nums1))
+        B = deque(sorted([(val, idx) for idx, val in enumerate(nums2)]))
+        res = [0] * len(nums2)
+        while B:
+            val, idx = B.pop()
+            res[idx] = A.pop() if A[-1] > val else A.popleft()
+        return res
