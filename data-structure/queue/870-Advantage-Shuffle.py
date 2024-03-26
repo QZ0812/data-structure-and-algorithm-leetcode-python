@@ -5,9 +5,8 @@ class Solution:
     def advantageCount(self, nums1: List[int], nums2: List[int]) -> List[int]:
         nums1.sort()
         ans = [0  for _ in range(len(nums1))]
-        hp = []
-        for i, num2 in enumerate(nums2):
-            heapq.heappush(hp, (-num2, i))
+        hp = [(-num2, i) for i, num2 in enumerate(nums2)]
+        heapq.heapify(hp)
 
         while nums1:
             num2, i = heapq.heappop(hp)
