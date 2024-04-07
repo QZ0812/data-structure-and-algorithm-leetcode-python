@@ -1,3 +1,7 @@
+# https://www.geeksforgeeks.org/detect-cycle-in-a-graph/
+# Time Complexity: O(V + E)
+# Auxiliary Space: O(V). To store the visited and recursion stack O(V) space is needed.
+
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         if not prerequisites:
@@ -27,6 +31,9 @@ class Solution:
             
         return True
 
+
+# Time Complexity: O(V + E)
+# Auxiliary Space: O(V). To store the visited and recursion stack O(V) space is needed.
 
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
