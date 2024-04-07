@@ -1,5 +1,7 @@
-# time/space O(v+E)
-# DFS
+# https://www.geeksforgeeks.org/detect-cycle-in-a-graph/
+# Time Complexity: O(V + E)
+# Auxiliary Space: O(V). To store the visited and recursion stack O(V) space is needed.
+
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
         graph = [[] for i in range(numCourses)]
