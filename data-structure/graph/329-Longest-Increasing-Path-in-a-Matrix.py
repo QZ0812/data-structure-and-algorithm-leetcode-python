@@ -1,4 +1,4 @@
-# time O(N*N) space O(N)
+# time O(N*M) space O(N*M)
 class Solution:
     def longestIncreasingPath(self, matrix: List[List[int]]) -> int:
         count = [[0] * len(matrix[0]) for _ in range(len(matrix))]
