@@ -1,0 +1,8 @@
+547. Number of Provinces
+952. Largest Component Size by Common Factor
+947. Most Stones Removed with Same Row or Column
+1319. Number of Operations to Make Network Connected
+684. Redundant Connection
+990. Satisfiability of Equality Equations
+1202. Smallest String With Swaps
+2421. Number of Good Paths
